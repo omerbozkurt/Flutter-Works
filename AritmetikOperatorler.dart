@@ -23,13 +23,20 @@ void main() {
   double a1 = 3.2;
 
   double x1 = ((v + v0) / 2) * t;
-  print ("x1: $x1");
+  print("x1: $x1");
 
-  double x2= (v0*t) + (a*t*t)/2;
-  print ("x2: $x2");
+  double x2 = (v0 * t) + (a * t * t) / 2;
+  print("x2: $x2");
 
   //Kısaltma
   int y = 10;
-  y+=2;
-  print (y);
+
+  y += 2;
+  print(y);
+
+  y -= 3;
+  print(y);
+
+  y++;
+  print(y);
 }
